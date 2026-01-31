@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <div class="logo">
+            <h1>XO XO STUDIO</h1>
+            <i onclick="mobileNav.classList.toggle('showNav')" class="fa-solid fa-bars"></i>
+    </div>
+
+    <ul class="mobileNav" id="mobileNav">
+      <li onclick="window.location.href = 'index.html'" class="all">HOME</li>
+      <li onclick="window.location.href = 'shop.html'" class="shop">SHOP ALL</li>
+      <li onclick="window.location.href = 'her.html'" class="all">FOR HER</li>
+      <li onclick="window.location.href = 'him.html'" class="all">FOR HIM</li>
+      <li onclick="window.location.href = 'about.html'" class="all">ABOUT</li>
+      <li class="all"><a href="index.html#scroll">Contact</a></li>
+    </ul>
+
+   
+    <div class="toppart">
+
+        <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-pinterest-p"></i>
+        
+        </div>
+
+        <div class="main">
+            <ul>
+                <li onclick="window.location.href = 'index.html'" class="all">HOME</li>
+                <li onclick="window.location.href = 'shop.html'" class="shop">SHOP ALL</li>
+                <li onclick="window.location.href = 'her.html'" class="all">FOR HER</li>
+                <li onclick="window.location.href = 'him.html'" class="all">FOR HIM</li>
+                <li onclick="window.location.href = 'about.html'" class="all">ABOUT</li>
+                <li class="all"><a href="index.html#scroll">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="log">
+            <button class="login-btn">
+                    <div class="user-icon"><i class="fa-solid fa-circle-user"></i></div>
+                    Log In
+                </button>
+
+                <button class="cart-btn">
+                    CART
+                    <div class="cart-count">0</div>
+                </button>
+        </div>
+    </div>
+   </header>
+   <div class="chat">
+    <h3><i class="fa-regular fa-face-grin"></i>Let's chat!</h3>
+</div>
+
+<div class="gray">
+    <p onclick="window.location.href = 'index.html'" >Home</p> <i class="fa-solid fa-angle-right"></i> All Products
+</div>
+
+<div class="pro">
+    <h1>All Products</h1>
+</div>
+
+<div class="gray1">
+    12 Products
+</div>
+
+
+<div class="cardss">
+    <div class="card">
+        <span class="badge">Best Seller</span>
+        <div class="cardt">
+            <img src="https://static.wixstatic.com/media/913019_5cbab0d3cc724937a6b792ee113de37b~mv2_d_1920_1920_s_2.jpg/v1/fill/w_494,h_658,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/913019_5cbab0d3cc724937a6b792ee113de37b~mv2_d_1920_1920_s_2.jpg" alt="">
+        </div>
+
+        <div class="cardb">
+            <h5 onclick="window.location.href = 'detalebi.html'">Swipe You Right</h5>
+        
+        <hr>
+        <h4>$6.00</h4>
+        <input type="number" id="quantity" name="quantity" min="1" placeholder="#">
+        <button onclick="window.location.href = 'detalebi.html'">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <span class="badge">Best Seller</span>
+        <div class="cardt">
+            <img src="https://static.wixstatic.com/media/913019_f855086fa4d04c1596a8aa3175e0c7e1~mv2_d_1920_1920_s_2.jpg/v1/fill/w_494,h_658,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/913019_f855086fa4d04c1596a8aa3175e0c7e1~mv2_d_1920_1920_s_2.jpg" alt="">
+        </div>
+
+        <div class="cardb">
+            <h5 onclick="window.location.href = 'detalebi.html'">Milk</h5>
+        
+        <hr>
+        <h4>$6.00</h4>
+        <input type="number"  min="1" placeholder="#">
+        <button onclick="window.location.href = 'detalebi.html'">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="cardt">
+            <img src="https://static.wixstatic.com/media/913019_f7e9dc3eb69f4d28bc2c6257def30382~mv2_d_1920_1920_s_2.jpg/v1/fill/w_494,h_658,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/913019_f7e9dc3eb69f4d28bc2c6257def30382~mv2_d_1920_1920_s_2.jpg" alt="">
+        </div>
+
+        <div class="cardb">
+            <h5 onclick="window.location.href = 'detalebi.html'">Butter on Tost</h5>
+        
+        <hr>
+        <h4>$6.00</h4>
+        <input type="number" min="1" placeholder="#">
+        <button onclick="window.location.href = 'detalebi.html'">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <span class="badge">New Arrival</span>
+        <div class="cardt">
+            <img src="https://static.wixstatic.com/media/913019_700e5b005c964607a43f80bc199d5063~mv2_d_1920_1920_s_2.jpg/v1/fill/w_494,h_658,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/913019_700e5b005c964607a43f80bc199d5063~mv2_d_1920_1920_s_2.jpg" alt="">
+        </div>
+
+        <div class="cardb">
+            <h5 onclick="window.location.href = 'detalebi.html'">You Add The Chili</h5>
+        
+        <hr>
+        <h4>$6.00</h4>
+        <input type="number" min="1" placeholder="#">
+        <button onclick="window.location.href = 'detalebi.html'">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="cardt">
+            <img src="https://static.wixstatic.com/media/913019_e9d0c29ae9ae4d16b972afc4c718de4e~mv2_d_1920_1920_s_2.jpg/v1/fill/w_494,h_658,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/913019_e9d0c29ae9ae4d16b972afc4c718de4e~mv2_d_1920_1920_s_2.jpg" alt="">
+        </div>
+
+        <div class="cardb">
+            <h5 onclick="window.location.href = 'detalebi.html'">Swipe You Right</h5>
+        
+        <hr>
+        <h4>$6.00</h4>
+         <input type="number" min="1" placeholder="#">
+        <button onclick="window.location.href = 'detalebi.html'">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <span class="badge">New Arrival</span>
+        <div class="cardt">
+            <img src="https://static.wixstatic.com/media/84770f_0119d8d9bd8e4ccd8e464f5ea061e0a2~mv2_d_1920_1920_s_2.jpg/v1/fill/w_494,h_658,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/84770f_0119d8d9bd8e4ccd8e464f5ea061e0a2~mv2_d_1920_1920_s_2.jpg" alt="">
+        </div>
+
+        <div class="cardb">
+            <h5 onclick="window.location.href = 'detalebi.html'">Can't live Without You</h5>
+        
+        <hr>
+        <h4>$6.00</h4>
+         <input type="number" min="1" placeholder="#">
+        <button onclick="window.location.href = 'detalebi.html'">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="cardt">
+            <img src="https://static.wixstatic.com/media/913019_8dda35dc63bf456d85c3eca9aab6fb16~mv2_d_1920_1920_s_2.jpg/v1/fill/w_494,h_658,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/913019_8dda35dc63bf456d85c3eca9aab6fb16~mv2_d_1920_1920_s_2.jpg" alt="">
+        </div>
+
+        <div class="cardb">
+            <h5 onclick="window.location.href = 'detalebi.html'">My Playdate</h5>
+        
+        <hr>
+        <h4>$6.00</h4>
+         <input type="number" min="1" placeholder="#">
+        <button onclick="window.location.href = 'detalebi.html'">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <span class="badge">Sale</span>
+        <div class="cardt">
+            <img src="https://static.wixstatic.com/media/913019_76ce3d94430142bf8a98024b8ccfa479~mv2_d_1920_1920_s_2.jpg/v1/fill/w_494,h_658,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/913019_76ce3d94430142bf8a98024b8ccfa479~mv2_d_1920_1920_s_2.jpg" alt="">
+        </div>
+
+        <div class="cardb">
+            <h5 onclick="window.location.href = 'detalebi.html'">Karaoke</h5>
+        
+        <hr>
+        <h4><s>$6.00</s> $4.80</h4>
+         <input type="number" min="1" placeholder="#">
+        <button onclick="window.location.href = 'detalebi.html'">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="card">
+        
+        <div class="cardt">
+            <img src="https://static.wixstatic.com/media/84770f_f000553fc9ed4bf681844d934528371e~mv2_d_1920_1920_s_2.jpg/v1/fill/w_494,h_658,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/84770f_f000553fc9ed4bf681844d934528371e~mv2_d_1920_1920_s_2.jpg" alt="">
+        </div>
+
+        <div class="cardb">
+            <h5 onclick="window.location.href = 'detalebi.html'">You Deserve This</h5>
+        
+        <hr>
+        <h4>$6.00</h4>
+         <input type="number" min="1" placeholder="#">
+        <button onclick="window.location.href = 'detalebi.html'">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="cardt">
+            <img src="https://static.wixstatic.com/media/913019_c4edc77bd6c044a9857e6a79615e6760~mv2_d_1920_1920_s_2.jpg/v1/fill/w_494,h_658,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/913019_c4edc77bd6c044a9857e6a79615e6760~mv2_d_1920_1920_s_2.jpg" alt="">
+        </div>
+
+        <div class="cardb">
+            <h5 onclick="window.location.href = 'detalebi.html'">Eating Fries</h5>
+        
+        <hr>
+        <h4>$6.00</h4>
+         <input type="number" min="1" placeholder="#">
+        <button onclick="window.location.href = 'detalebi.html'">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="cardt">
+            <img src="https://static.wixstatic.com/media/913019_48ff9d02c06e492c8a62b7311216678b~mv2_d_1920_1920_s_2.jpg/v1/fill/w_494,h_658,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/913019_48ff9d02c06e492c8a62b7311216678b~mv2_d_1920_1920_s_2.jpg" alt="">
+        </div>
+
+        <div class="cardb">
+            <h5 onclick="window.location.href = 'detalebi.html'">At First I Thought You’re Hot</h5>
+        
+        <hr>
+        <h4>$6.00</h4>
+         <input type="number" min="1" placeholder="#">
+        <button onclick="window.location.href = 'detalebi.html'">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <span class="badge">Sale</span>
+        <div class="cardt">
+            <img src="https://static.wixstatic.com/media/913019_3641c409d4f048478639ee9ef6753a9e~mv2_d_1920_1920_s_2.jpg/v1/fill/w_494,h_658,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/913019_3641c409d4f048478639ee9ef6753a9e~mv2_d_1920_1920_s_2.jpg" alt="">
+        </div>
+
+        <div class="cardb">
+            <h5 onclick="window.location.href = 'detalebi.html'">You Are My Other Half</h5>
+        
+        <hr>
+        <h4><s>$6.00</s> $4.80</h4>
+         <input type="number" min="1" placeholder="#">
+        <button onclick="window.location.href = 'detalebi.html'">Add to Cart</button>
+        </div>
+    </div>
+
+</div>
+
+<div class="bottombar">
+  <div class="marcxena">
+    Follow Us & Have a Happy Valentine’s Day
+  </div>
+
+  <div class="shua">
+    <i class="fa-brands fa-facebook-f"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-pinterest-p"></i>
+  </div>
+
+  <div class="marjvena">
+    <a>Shipping & Returns</a>
+    <a>Privacy Policy</a>
+    <a>FAQ</a>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,1005 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+
+
+.header {
+    background-color: #e8f4f3;
+    padding: 30px 50px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    position: fixed;
+    right: 0;     
+    left: 0;
+    top: 0;                
+    z-index: 1000;
+
+}
+.logo {
+    background-color: #e8f4f3;
+    color: rgb(199, 23, 23);
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    font-size: 20px;
+    font-family: "Ubuntu", sans-serif;
+    letter-spacing: 5px;
+    
+
+}
+
+.logo h1 {
+    animation: colorChange 3s infinite;
+}
+
+
+
+
+.navbar li {
+  padding: 10px 20px;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.fa-bars {
+  color: rgb(199, 23, 23);
+  width: 50px !important;
+  height: 40px;
+  font-size: 30px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  display: none !important;
+}
+
+.mobileNav {
+  position: fixed;
+  background-color: #e8f4f3;
+  width: 250px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  right: -300px;
+  list-style: none;
+  transition: 1s;
+  border-bottom-left-radius: 15px;
+}
+
+.showNav {
+    right: 0;
+}
+
+.mobileNav li {
+    padding: 10px;
+    gap: 10px;
+    text-align: center;
+    background-color: #e8f4f3;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 15px;
+}
+
+
+
+.icons {
+    display: flex;
+    gap: 20px; 
+}
+
+.main  {
+    display: flex;
+    align-items: center; 
+    gap: 35px;
+}
+
+.main ul {
+    list-style: none; 
+    display: flex;
+    gap: 35px;
+}
+
+
+.main ul {
+    list-style: none; 
+    display: flex;
+    gap: 35px; 
+    padding: 0;
+    margin: 0;
+}
+
+.home {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+    cursor: pointer; 
+    transition: 0.3s ; 
+    position: relative; 
+}
+
+
+.all {
+    color: #e84c3d;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+    cursor: pointer; 
+    transition: 0.3s; 
+    position: relative; 
+}
+
+
+
+.all:hover {
+    color: black;  
+    letter-spacing: 2px; 
+}
+
+
+.all:hover::after {
+    width: 100%; 
+}
+
+
+.log {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.login-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: none;
+    border: none;
+    color: black;
+    font-size: 14px; 
+    font-weight: 500;
+}
+
+.user-icon {
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 25px;
+}
+
+
+.cart-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: none;
+    border: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.cart-count {
+    background-color: black;
+    color: white;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+
+.toppart {
+    background-color: #e8f4f3;
+    gap: 25px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+    padding: 25px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.chat {
+    color: white;
+    background-color: #e84c3d;
+    font-family: "Dancing Script", cursive;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+
+
+
+.love {
+    background-image: url(https://static.wixstatic.com/media/84770f_f873340769b440df9a4b3cb513fc6a39~mv2.jpg/v1/fill/w_1506,h_700,al_c,q_85,enc_avif,quality_auto/84770f_f873340769b440df9a4b3cb513fc6a39~mv2.jpg);
+    background-size: cover;
+    padding: 120px 10px 280px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 120px;
+    background-position: center;
+}
+
+.love h1 {
+    color: #e53023;
+    font-size: 80px;
+    font-family: "Dancing Script", cursive;
+}
+
+.line {
+    background-color: #e53023;
+    width: 50px;
+    height: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.love h4 {
+    color: #e53023;
+    font-size: 14px;
+    margin: 10px 0 30px;
+    font-family: "Ubuntu", sans-serif;
+    letter-spacing: 2px;
+}
+
+.love button {
+   background: #e53023;
+   color: white;
+   border: none;
+   padding: 12px 30px;
+   border-radius: 30px;
+   transition: 0.4s; 
+   cursor: pointer;
+}
+
+.butto:hover {
+    color: #e53023;
+    background-color: white;
+}
+
+.cardsfr {
+    position: absolute;
+    bottom: -430px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 40px 60px;
+}
+
+.cards {
+  display: flex;
+  gap: 40px;
+}
+
+.forhim, .forall, .forher {
+  width: 240px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Ubuntu", sans-serif;
+  
+}
+
+.tetri {
+    padding: 180px 20px 40px;
+    text-align: center;
+}
+
+.toph {
+    width: 240px;
+    height: 350px;
+    background-image: url(https://static.wixstatic.com/media/913019_c760a33f62384f2186e04b258e8ff7d9~mv2_d_3176_2000_s_2.jpg/v1/crop/x_1181,y_543,w_862,h_1227/fill/w_606,h_864,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/shutterstock_1227653392_2.jpg);
+    background-size: cover;
+
+    
+}
+
+.topa {
+    width: 240px;
+    height: 350px;
+    background-image: url(https://static.wixstatic.com/media/84770f_5ddabe0f8dea4de5b6b38fce78618b01~mv2_d_3176_2000_s_2.jpg/v1/crop/x_940,y_0,w_1472,h_2000/fill/w_636,h_864,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/shutterstock_1118063456_2.jpg);
+    background-size: cover;
+}
+
+.topher {
+    width: 240px;
+    height: 350px;
+    background-image: url(https://static.wixstatic.com/media/913019_0721c6c3163b40bcb29ae908597a1ed5~mv2_d_3176_2000_s_2.jpg/v1/crop/x_935,y_0,w_1403,h_2000/fill/w_606,h_864,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/shutterstock_1157697136_2.jpg);
+    background-size: cover;
+}
+
+.bottom {
+    color: #e53023;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin: 25px;
+}
+
+
+.bottom button {
+    color: #e53023;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid #e53023;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.bottom button:hover {
+    color: white;
+    background-color: #e53023;
+}
+
+.part2 {
+    background: #e12b1f;
+    height: 350px;
+    margin-top: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sale {
+    position: relative;
+    width: 70%;
+    max-width: 1000px;
+    padding: 30px 40px 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid white;
+    border-radius: 18px;
+    
+}
+
+.lefttext {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-family: "Dancing Script", cursive;
+  
+}
+
+.divider {
+  width: 2px;
+  height: 120px;
+  background: white;
+  margin: 0 10px;
+ 
+}
+
+.righttext {
+  display: flex;
+  gap: 60px;
+  font-size: 22px;
+}
+
+.righttext span {
+  display: block;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 10px;
+  font-family: "Dancing Script", cursive;
+}
+
+
+.shop-btn {
+  position: absolute;
+  bottom: -26px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 14px 70px;
+  border-radius: 40px;
+  border: 2px solid white;
+  background: #e12b1f;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.shop-btn:hover {
+  background: white;
+  color: #e12b1f;
+  transition: 0.3s;
+}
+
+.som {
+    max-width: 100%;
+    margin-top: -30px;
+    background-image: url("https://static.wixstatic.com/media/84770f_1c6349100abb4bf4a59b54dd6b3d9747~mv2_d_10820_3831_s_4_2.jpg/v1/fill/w_1883,h_1065,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/84770f_1c6349100abb4bf4a59b54dd6b3d9747~mv2_d_10820_3831_s_4_2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Ubuntu", sans-serif;
+    height: 710px;
+}
+
+.som h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    color: #e12b1f;
+    padding: 30px;
+    
+}
+
+#scroll {
+    scroll-margin-top: 150px;
+}
+
+form {
+    width: 550px;
+    height: 600px;
+    margin: 20px auto;
+    margin-top: -50px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #e12b1f;
+    gap: 10px;
+}
+
+.top {
+    display: flex;
+    gap: 15px;
+    
+}
+
+.top .field {
+    width: 50%;
+    
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+
+.field textarea {
+    height: 90px;
+    resize: none;
+    background-color: #FED5CD;
+    border-radius: 10px;
+    border: 2px solid #e12b1f;
+    outline: none;
+    padding: 20px;
+    
+}
+
+
+textarea:focus {
+  background-color: #ffad9c;
+}
+
+form button {
+    align-self: center;
+    min-width: 100%;
+    height: 40px;
+    padding: 14px 0;
+    border: none;
+    border-radius: 30px;
+    background-color: #e12b1f;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+    
+}
+
+form button:hover {
+    background-color: white;
+    color: #e53023;
+}
+
+input {
+    height: 40px;
+    padding: 10px;
+    border: 2px solid #e12b1f;
+    background-color: #FED5CD;
+    border-radius: 10px;
+    outline: none;
+}
+
+input:focus {
+  background-color: #ffad9c;
+}
+
+.bo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    gap: 20px;
+}
+
+.cc {
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    
+}
+
+.line1 {
+    background-color: #e12b1f;
+    width: 50px;
+    height: 2px;
+    margin-bottom: 10px;
+    
+}
+
+.period {
+    font-size: 23px;
+    margin: 0 10px;
+    
+}
+
+.numb {
+    display: flex;
+    font-size: 20px;
+    
+}
+
+
+.bottombar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: #e8f4f3;
+  padding: 15px 40px;
+  font-size: 15px;
+  height: 110px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.marcxena {
+  color: #ff2b2b;
+  letter-spacing: 1px;
+}
+
+.shua {
+  display: flex;
+  gap: 18px;
+}
+
+.marjvena {
+  display: flex;
+  gap: 25px;
+}
+
+.marjvena a {
+  color: #ff2b2b;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+@keyframes colorChange {
+            0% {
+                letter-spacing: 5px;
+                color: #650801;
+            }
+            25% {
+                letter-spacing: 3px;
+                color: #e12b1f;
+            }
+            50% {
+                letter-spacing: 1px;
+                color: #ea574d;
+            }
+            75% {
+                letter-spacing: 3px;
+                color: #f12213;
+            }
+            100% {
+                letter-spacing: 5px;
+                color: #650801;
+            }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+    .toppart {
+        gap: 15px;
+        padding: 20px;
+    }
+    
+    .main ul {
+        gap: 20px;
+    }
+    
+    .love h1 {
+        font-size: 60px;
+    }
+    
+    .cards {
+        gap: 25px;
+    }
+    
+    .forhim, .forall, .forher {
+        width: 200px;
+        height: 450px;
+    }
+    
+    .toph, .topa, .topher {
+        width: 200px;
+        height: 300px;
+    }
+    
+    .lefttext {
+        font-size: 40px;
+    }
+    
+    .righttext {
+        gap: 40px;
+        font-size: 18px;
+    }
+    
+    .righttext span {
+        font-size: 26px;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .toppart {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .main ul {
+        gap: 15px;
+    }
+    
+    .all, .home {
+        font-size: 12px;
+    }
+    
+    .log {
+        gap: 15px;
+    }
+    
+    .love {
+        padding: 100px 10px 250px;
+    }
+    
+    .love h1 {
+        font-size: 50px;
+    }
+    
+    .cardsfr {
+        padding: 30px 40px;
+        bottom: -400px;
+    }
+    
+    .cards {
+        gap: 30px;
+    }
+    
+    .forhim, .forall, .forher {
+        width: 180px;
+        height: 400px;
+    }
+    
+    .toph, .topa, .topher {
+        width: 180px;
+        height: 270px;
+    }
+    
+    .sale {
+        max-width: 85%;
+        padding: 25px 30px 40px;
+    }
+    
+
+
+    .lefttext {
+        font-size: 35px;
+    }
+    
+    .divider {
+        height: 100px;
+    }
+    
+    .righttext {
+        gap: 30px;
+        font-size: 16px;
+    }
+    
+    .righttext span {
+        font-size: 22px;
+    }
+    
+    .bottombar {
+        height: auto;
+        min-height: 110px;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 500px) {
+    .navbar ul {
+    display: none;
+  }
+
+  .fa-bars {
+    display: flex !important;
+  }
+
+  .toppart {
+    display: none !important;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: space-between;
+  }
+
+    .love {
+        padding: 60px 10px 180px;
+        margin-top: 95px;
+    }
+    
+    .love h1 {
+        font-size: 50px;
+    }
+    
+    .love h4 {
+        font-size: 12px;
+        padding: 0 20px;
+    }
+    
+    .love button {
+        padding: 10px 25px;
+        font-size: 14px;
+    }
+    
+    .cardsfr {
+        position: static;
+        transform: none;
+        width: 90%;
+        padding: 20px;
+        margin-top: 100px;
+    }
+    
+    .cards {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    
+    .forhim, .forall, .forher {
+        width: 100%;
+        max-width: 280px;
+        height: auto;
+        margin-top: 20px;
+    }
+    
+    .toph, .topa, .topher {
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+    }
+    
+    .bottom {
+        margin: 20px;
+        gap: 15px;
+    }
+    
+    .bottom button {
+        width: 100%;
+        max-width: 200px;
+    }
+    
+    .part2 {
+        height: auto;
+        margin-top: 0;
+        padding: 40px 0;
+    }
+    
+    .sale {
+        flex-direction: column;
+        width: 90%;
+        padding: 30px 20px 50px;
+        gap: 20px;
+        align-items: center;
+    }
+    
+    .lefttext {
+        font-size: 35px;
+        text-align: center;
+    }
+    
+    .divider {
+        width: 80px;
+        height: 2px;
+        margin: 10px 0;
+    }
+    
+    .righttext {
+        flex-direction: column;
+        gap: 20px;
+        font-size: 16px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .righttext span {
+        font-size: 24px;
+        margin-top: 5px;
+    }
+    
+    .shop-btn {
+        padding: 12px 50px;
+        font-size: 14px;
+        bottom: -23px;
+    }
+    
+    .som {
+        height: auto;
+        min-height: 600px;
+        background-attachment: scroll;
+        padding: 20px 0;
+        margin-top: 0;
+    }
+    
+    .som h3 {
+        font-size: 24px;
+        padding: 20px 15px;
+        text-align: center;
+    }
+    
+    form {
+        width: 90%;
+        max-width: 450px;
+        height: auto;
+        padding: 30px 20px;
+        margin-top: 0;
+    }
+    
+    .top {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .top .field {
+        width: 100%;
+    }
+    
+    .field textarea {
+        height: 80px;
+        padding: 15px;
+    }
+    
+    form button {
+        padding: 12px 0;
+        font-size: 15px;
+    }
+    
+    .bo {
+        padding: 10px;
+        gap: 15px;
+    }
+    
+    .cc {
+        font-size: 24px;
+    }
+    
+    .numb {
+        font-size: 14px;
+        flex-direction: column;
+        gap: 8px;
+        text-align: center;
+    }
+    
+    .period {
+        display: none;
+    }
+
+
+    @keyframes colorChange {
+            0% {
+                
+                color: #650801;
+            }
+            25% {
+                
+                color: #e12b1f;
+            }
+            50% {
+                
+                color: #ea574d;
+            }
+            75% {
+                
+                color: #f12213;
+            }
+            100% {
+                
+                color: #650801;
+            }
+}
+}
+
+
+
+
+
+
+
+
+

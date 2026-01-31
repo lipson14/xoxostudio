@@ -1,0 +1,500 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+    background-color: #e8f4f3;
+    padding: 30px 50px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    position: fixed;      
+    width: 100%;
+    top: 0;                
+    z-index: 1000;
+}
+
+.main a {
+    text-decoration: none;
+    color: #e84c3d;
+}
+
+.logo {
+    background-color: #e8f4f3;
+    color: rgb(199, 23, 23);
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    font-size: 20px;
+    font-family: "Ubuntu", sans-serif;
+    letter-spacing: 5px;
+
+}
+
+.logo h1 {
+    animation: colorChange 3s infinite;
+}
+
+
+
+.fa-bars {
+  color: rgb(199, 23, 23);
+  width: 50px !important;
+  height: 40px;
+  font-size: 30px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  display: none !important;
+}
+
+.mobileNav {
+  position: fixed;
+  background-color: #e8f4f3;
+  width: 250px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  right: -300px;
+  list-style: none;
+  transition: 1s;
+  border-bottom-left-radius: 15px;
+}
+
+.showNav {
+    right: 0;
+}
+
+.mobileNav li {
+    padding: 10px;
+    gap: 10px;
+    text-align: center;
+    background-color: #e8f4f3;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 15px;
+}
+
+.mobileNav a {
+    text-decoration: none;
+    color: #e84c3d;
+}
+
+
+.icons {
+    display: flex;
+    gap: 20px; 
+}
+
+.main  {
+    display: flex;
+    align-items: center; 
+    gap: 35px;
+}
+
+.main ul {
+    list-style: none; 
+    display: flex;
+    gap: 35px;
+}
+
+
+.main ul {
+    list-style: none; 
+    display: flex;
+    gap: 35px; 
+    padding: 0;
+    margin: 0;
+}
+
+.him {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+    cursor: pointer; 
+    transition:  0.3s; 
+    position: relative; 
+}
+
+.all {
+    color: #e84c3d;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+    cursor: pointer; 
+    transition: 0.3s; 
+    position: relative; 
+}
+
+.all:hover {
+    color: #000; 
+    letter-spacing: 2px; 
+}
+
+.all a {
+    color: #e84c3d;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+    cursor: pointer; 
+    transition: 0.3s; 
+    position: relative; 
+}
+
+.all a:hover {
+    color: #000; 
+    letter-spacing: 2px; 
+}
+
+.log {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.login-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: none;
+    border: none;
+    color: black;
+    font-size: 14px; 
+    font-weight: 500;
+}
+
+.user-icon {
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 25px;
+}
+
+
+.cart-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: none;
+    border: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.cart-count {
+    background-color: black;
+    color: white;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+
+.toppart {
+    background-color: #e8f4f3;
+    gap: 25px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+    padding: 25px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.chat {
+    color: white;
+    background-color: #e84c3d;
+    font-family: "Dancing Script", cursive;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+
+.gray {
+    color: #2F2F30;
+    font-size: 11px;
+    margin-top: 180px;
+    margin-left: 60px;
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+
+}
+
+.gray p {
+    cursor: pointer;
+}
+
+.pro {
+    color: #e53023;
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.gray1 {
+    color: #2F2F30;
+    font-size: 11px;
+    margin-left: 60px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.cardss {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    font-family: "Ubuntu", sans-serif; 
+}
+
+
+.card {
+    position: relative;
+    text-align: center;
+    width: 30%; 
+}
+
+.badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #e53023;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 6px 10px;
+  z-index: 2;
+}
+
+.cardt img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.cardb {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #e53023;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.cardb input {
+    outline: none;
+    width: 90%;
+    height: 30px;
+    align-self: center;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.cardb button {
+    background-color: #e53023;
+    color: white;
+    border: none;
+    width: 90%;
+    height: 30px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.cardb h5 {
+    cursor: pointer; 
+    transition: 0.7s; 
+
+}
+
+.cardb h5:hover {
+    color: #000; 
+    letter-spacing: 2px; 
+}
+
+hr {
+    width: 20px;
+    align-self: center;
+}
+
+
+
+.bottombar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: #e8f4f3;
+  padding: 15px 40px;
+  font-size: 15px;
+  height: 110px;
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 30px;
+}
+
+.marcxena {
+  color: #ff2b2b;
+  letter-spacing: 1px;
+}
+
+.shua {
+  display: flex;
+  gap: 18px;
+}
+
+.marjvena {
+  display: flex;
+  gap: 25px;
+}
+
+.marjvena a {
+  color: #ff2b2b;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+
+
+@keyframes colorChange {
+            0% {
+                letter-spacing: 5px;
+                color: #650801;
+            }
+            25% {
+                letter-spacing: 3px;
+                color: #e12b1f;
+            }
+            50% {
+                letter-spacing: 1px;
+                color: #ea574d;
+            }
+            75% {
+                letter-spacing: 3px;
+                color: #f12213;
+            }
+            100% {
+                letter-spacing: 5px;
+                color: #650801;
+            }
+}
+
+
+
+
+
+@media (max-width: 1200px) {
+    .toppart {
+        gap: 15px;
+        padding: 20px;
+    }
+    
+    .main ul {
+        gap: 20px;
+    }
+    
+}
+
+
+@media (max-width: 900px) {
+    .toppart {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .main ul {
+        gap: 15px;
+    }
+    
+    .all, .home {
+        font-size: 12px;
+    }
+    
+    .log {
+        gap: 15px;
+    }
+    
+    
+    .bottombar {
+        height: auto;
+        min-height: 110px;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 500px) {
+    .navbar ul {
+    display: none;
+  }
+
+  .fa-bars {
+    display: flex !important;
+  }
+
+  .toppart {
+    display: none !important;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+   @keyframes colorChange {
+            0% {
+                
+                color: #650801;
+            }
+            25% {
+                
+                color: #e12b1f;
+            }
+            50% {
+                
+                color: #ea574d;
+            }
+            75% {
+                
+                color: #f12213;
+            }
+            100% {
+                
+                color: #650801;
+            }
+}
+}
